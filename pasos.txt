@@ -1,0 +1,9 @@
+1. Se inicia proyecto con comando npx create-react-app my-app
+2. Se copia la carpeta assets, css, images dentro de src
+1. Se crea la carpeta Components en src
+2. Se crea un archivos por cada componente
+3. En App solamente se cambia id del div por wrapper y solo se importan SideBar y ContentWrapper
+4. En contentWrapper se importan TopBar, ContentRowTop y Footer
+5. Se importan en cada componente las imagenes correspondientes
+6. Se quita el atributo width de la img de manadalorian
+7. Se modifica la linea 4 de index.js de import './index.css'por import './assets/css/app.css';
